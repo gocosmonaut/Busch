@@ -1,0 +1,45 @@
+@font-face {
+  font-family: 'Bitter';
+  src: local('Bitter'), url(fonts/Bitter.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Bitter-Bold';
+  src: local('Bitter-Bold'), url(fonts/Bitter-Bold.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Bitter-Italic';
+  src: local('Bitter-Italic'), url(fonts/Bitter-Italic.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'MPMediumRoman';
+  src: local('MPMediumRoman'), url(fonts/MPMediumRoman.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'MPBoldRoman';
+  src: local('MPBoldRoman'), url(fonts/MPBoldRoman.woff) format('woff');
+}
+
+
+
+
+body {
+	  font-family: 'MPBoldRoman';
+  font-style: normal;
+
+}
+
+div#header {
+	z-index:999;
+width:100%;
+
+}
+
+div#navigation 
+{ width: 100%;
+border-style: solid; border-width: 0px;
+background:#1b6992; }
+	
