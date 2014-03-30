@@ -1,5 +1,5 @@
 
-body { font-size:14px; font-weight:normal; font-style:normal; line-height: 1.5; background:#ffffff; word-wrap: break-word; margin: 0; padding: 0; border: 0; outline: 0;border-top:0px solid;  }
+body { font-size:1em; font-weight:normal; font-style:normal; line-height: 1.5; background:#ffffff; word-wrap: break-word; margin: 0; padding: 0; border: 0; outline: 0;border-top:0px solid;  }
 
 
 a:link, a:visited { text-decoration: none;  }
@@ -66,7 +66,9 @@ box-shadow: 1px 1px 0 #fff inset, -1px -1px 0 #fff inset; -moz-box-shadow: 1px 1
 .aligncenter { display:block; margin:0 auto; }
 
 /* Header */
-#header-top { padding:20px 0 4px 0; }
+#header-top { margin: 0 auto;
+    padding: 20px 0 4px;
+    width: 960px;}
 
 #header, #header-right { margin-top: 16px; }
 
@@ -118,7 +120,7 @@ text-shadow: 1px 1px 0px #fff; }
 
 /* Footer */
 
-#footer { clear: both; padding: 20px 0; border-top: 1px solid; font-size: .9em; }
+#footer { clear: both; padding: 20px 0; border-top: 1px solid; font-size: .9em; width:100%; margin:0px auto; max-width:1350px;}
 
 #credits { text-align: center; }
 
@@ -395,7 +397,7 @@ div.vertical-tabs .vertical-tabs-panes fieldset.vertical-tabs-pane { padding: 1e
 
 /* --------------- Search Form ---------------- */
 
-#block-search-form { padding-bottom: 7px; }
+#block-search-form { padding-bottom: 7px; float:right; }
 
 #block-search-form .content { margin-top: 0; }
 
@@ -434,8 +436,10 @@ div#navigation div.menu-header div.content{
 }
 #navigation ul { padding:0px;}
 #navigation ul li {}
+#navigation ul li:hover {}
+#navigation ul li a {border:0px !important; }
 #navigation ul.menu { padding:0px;text-align:center;}
-#navigation ul.menu li {  }
+#navigation ul.menu li:hover {  }
 
 #navigation ul, #navigation ul.sf-menu {     margin: 0 auto;
     width: 960px;
@@ -443,12 +447,12 @@ div#navigation div.menu-header div.content{
 	
 #navigation ul li, #navigation ul.sf-menu li { position: relative; list-style:none; ; background:none; }
 
-#navigation ul li a, #navigation ul.sf-menu li a { padding: 0px;text-decoration: none; 
-display: block;  outline:none; color:#fff; text-transform:uppercase;}
+#navigation ul li a, #navigation ul.sf-menu li a { padding: 3px 14px;text-decoration: none; letter-spacing:1px; font-size:.9em;
+display: block;  outline:none; color:#fff; text-transform:uppercase; font-family: 'Bitter'; }
 
 #navigation ul li.expanded a, #navigation ul.sf-menu li.menuparent a { padding-right: 35px; }
 
-#navigation ul li a:hover, #navigation ul.sf-menu li a:hover { position: relative; color: #545454; background-color: #f1f1f1; }
+#navigation ul li a:hover, #navigation ul.sf-menu li a:hover {  color: #8DD8FF; }
 
 #navigation ul li:hover li a, #navigation ul.sf-menu li li a { color: #595959; font-weight: normal; }
 

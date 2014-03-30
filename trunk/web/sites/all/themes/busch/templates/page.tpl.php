@@ -34,6 +34,25 @@
             </div>
         </div>
         <!-- #navigation -->
+         <!-- #header-top -->
+        <div id="header-top" class="sixteen columns clearfix">
+            
+            <?php if ($page['header_top_left'] && $page['header_top_right']) { ?>
+            <div class="one_half">
+            <?php print render($page['header_top_left']); ?>
+            </div>
+            
+            <div class="one_half last">
+            <?php print render($page['header_top_right']); ?>
+            </div>
+            <?php } else { ?>
+                
+            <?php print render($page['header_top_left']); ?>
+            <?php print render($page['header_top_right']); ?>
+            
+            <?php } ?>
+            
+        </div><!-- /#header-top -->
         <div id="navigation" class="sixteen columns clearfix">
         
             <div class="menu-header">
@@ -53,30 +72,13 @@
             </div>
             
         </div><!-- /#navigation -->
+        <div id="marquee" class="sixteen columns clearfix"> <?php if ($page['marquee']): ?><?php print render($page['marquee']); ?><?php endif; ?></div>
         <!-- /#header -->
         
     <div class="container">
         
         <?php if ($page['header_top_left'] || $page['header_top_right']): ?>
-        <!-- #header-top -->
-        <div id="header-top" class="sixteen columns clearfix">
-            
-            <?php if ($page['header_top_left'] && $page['header_top_right']) { ?>
-            <div class="one_half">
-            <?php print render($page['header_top_left']); ?>
-            </div>
-            
-            <div class="one_half last">
-            <?php print render($page['header_top_right']); ?>
-            </div>
-            <?php } else { ?>
-                
-            <?php print render($page['header_top_left']); ?>
-            <?php print render($page['header_top_right']); ?>
-            
-            <?php } ?>
-            
-        </div><!-- /#header-top -->
+       
         <?php endif; ?>
         
         <div class="clear"></div>

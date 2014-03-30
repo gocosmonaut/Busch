@@ -16,6 +16,7 @@ regions[header_top_right] = Header top right
 regions[header_right] = Header right
 regions[header] = Header
 regions[highlighted] = Highlighted
+regions[marquee] = Marquee
 
 regions[content] = Content
 regions[sidebar_first] = Sidebar first
