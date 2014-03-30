@@ -32,7 +32,10 @@ body {
 
 }
 h1#page-title {
-	 font-family: 'MPMediumRoman';
+	 color: #777777;
+    font-family: 'MPMediumRoman';
+    font-size: 2em;
+    margin: 15px 0;
 }
 
 .front h1#page-title {
@@ -54,8 +57,8 @@ div#navigation
 border-style: solid; border-width: 0px;
 background:#1b6992; }
 	
-	div#block-block-1 {
-	
+	div#block-block-1 p {
+	margin-bottom:24px;
 	}
 	
 	div#block-block-2 {
@@ -67,14 +70,16 @@ background:#1b6992; }
     font-size: 1.25em;
     letter-spacing: 0.5px;
 	margin-bottom:6px;
+	text-align: right;
 		}
 		
-			div#block-block-2 div#member-login p {
+			body.not-logged-in div#block-block-2 div#member-login p {
 	margin:0px;
 	padding:0px;
+	font-size:1.1em;
 		}
 	
-	div#block-block-2 div#member-login {
+	body.not-logged-in div#block-block-2 div#member-login {
 float:right;
   border-radius: 6px;
    
@@ -82,33 +87,62 @@ float:right;
     font-size: 0.8em;
     text-align: center;
     text-transform: uppercase;
-    width: 88%;
-	padding:2px 0px 3px;
+    width: 90%;
+	padding:0px 0px 3px;
     background-image: rgba(235,235,235,1);
-    background-image: -webkit-linear-gradient(top, #efefef 0%,#c1c1c1 100%);
-    background-image: -moz-linear-gradient(top, #efefef 0%,#c1c1c1 100%);
-    background-image: -o-linear-gradient(top, #efefef 0%,#c1c1c1 100%);
-    background-image: linear-gradient(top, #efefef 0%,#c1c1c1 100%);
+    background-image: -webkit-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: -moz-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: -o-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
 	letter-spacing:.5px;
+	box-shadow:1px 1px 1px #ddd;
 }
 
-div#block-block-2 div#member-login a {
+body.not-logged-in div#block-block-2 div#member-login a {
 display:block;
-  color: #828282;
-  width: 140%;
+  color: #525252;
   
 }
 
-div#block-block-2 div#member-login a:hover {
+body.not-logged-in div#block-block-2 div#member-login a:hover {
 display:block;
 color:white;
 }
 
 
-	div#block-block-2 div#member-login:hover {
+	body.not-logged-in  div#block-block-2 div#member-login:hover {
 background:#1b6992;
 color:white;
 }
+
+body.logged-in div#block-block-2 div#member-login {
+	display:none;
+}
+
+body.logged-in div#welcome-back {
+	display:block;
+}
+
+body.logged-in div#welcome-back p {
+	  font-family: 'MPMediumRoman';
+	  font-size:.8em;
+	  text-align:right;
+	  padding:2% 4%;
+	  border-radius:3px;
+	   background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: -moz-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: -o-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+	letter-spacing:.5px;
+	    color:#1b6992;
+	  box-shadow:1px 1px 1px #ddd;
+}
+
+body.not-logged-in div#welcome-back {
+	display:none;
+}
+
 
 .front div#marquee {
 	width:100%;
@@ -117,8 +151,10 @@ color:white;
 	display:block;
 }
 
-.front p {
+p.home-intro  {
 	width:70%;
+	margin:-32px 0 50px;
+	font-size:.9em;
 }
 
  div#marquee {
@@ -136,13 +172,13 @@ color:white;
     div#marquee div#block-block-3 h1 {
 	color:white;
 	  font-family: 'MPBoldRoman';
-	  letter-spacing:2.35px;
+	  letter-spacing:2.5px;
 	  text-transform:uppercase;
 	  padding-top:32px;
 	  line-height: 100%;
 	  font-size:2em;
 	   font-weight:normal;
-	   font-size:2.35em;
+	   font-size:2.5em;
   }
   
    div#marquee div#block-block-3 h2 {
@@ -150,8 +186,9 @@ color:white;
 	  text-transform:uppercase;
 	   font-family: 'MPMediumRoman';
 	   font-weight:normal;
-	   letter-spacing:2px;
-	   font-size:1.35em;
+	   letter-spacing:1.5px;
+	   font-size:1.3em;
+	    font-weight:normal;
   }
 
 
