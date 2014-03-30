@@ -36,6 +36,7 @@ h1#page-title {
     font-family: 'MPMediumRoman';
     font-size: 2em;
     margin: 15px 0;
+	line-height:110%;
 }
 
 .front h1#page-title {
@@ -153,8 +154,12 @@ body.not-logged-in div#welcome-back {
 
 p.home-intro  {
 	width:70%;
-	margin:-32px 0 50px;
+	margin:0px 0 16px;
 	font-size:.9em;
+}
+
+.front div#main {
+	margin-top:-32px;
 }
 
  div#marquee {
@@ -191,5 +196,42 @@ p.home-intro  {
 	    font-weight:normal;
   }
 
+div.field.field-name-field-keywords div.field-items div.field-item  {
+	
+}
 
+div.field.field-name-field-newsletter-image  {
 
+float:right;
+
+}
+
+div.field.field-name-field-newsletter-image div.field-item  {
+	
+}
+
+div.field.field-name-field-newsletter-image div.field-items div.field-item img  {
+max-width:250px;
+min-width:150px;
+height:auto;
+float:right;
+margin:0px 0px 15px 15px;
+}
+
+div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image {
+	float:right;
+	margin:0px 0px 18px 18px;
+	border:1px solid #1B6992;
+	box-shadow:1px 1px 1px #DDDDDD;
+}
+
+div.view.view-landlord-newsletters div.views-field.views-field-title {
+	 font-family: 'MPMediumRoman';
+    font-size: 1.25em;
+    line-height: 125%;
+    margin-bottom: 10px;
+}
+
+div.view.view-landlord-newsletters div.views-field.views-field-body {
+	  font-size:.85em;
+}
