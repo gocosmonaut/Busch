@@ -180,7 +180,7 @@ p.home-intro  {
     div#marquee div#block-block-3 h1 {
 	color:white;
 	  font-family: 'MPBoldRoman';
-	  letter-spacing:2.5px;
+	  letter-spacing:2.6px;
 	  text-transform:uppercase;
 	  padding-top:32px;
 	  line-height: 100%;
@@ -263,14 +263,16 @@ div.view.view-landlord-newsletters div.views-row-last {
 }
 
 div#sidebar-first {
-	border:1px solid #1a5824;
-	border-bottom:2px solid #0e2b13 ;
-	border-radius:9px;
-	background:#edf0ee;
+	border:1px solid #888;
+	border-top:1px solid #aaa;
+	border-left:1px solid #aaa;
+	border-bottom:4px double #0e2b13 ;
+	background:#f1f6f3 url(../../../../default/files/curve_gradient.png) center top no-repeat;
 	font-family: 'MPMediumRoman';	width:248px;
+	
 }
 div.region.region-sidebar-first {
-	padding:10px 15px 15px;
+	padding:6px 15px 15px;
 
 }
 
@@ -279,10 +281,13 @@ div#block-views-newsletter-topics-block {
 }
 
 div#block-views-newsletter-topics-block h2 {
-	font-size:1em;
-	text-align:center;
-	font-weight:100;
-	 margin-bottom: 10px;
+	 color: #666666;
+    font-size: 0.9em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 div#block-views-newsletter-topics-block a {
@@ -339,7 +344,7 @@ div#block-block-4 p,div#block-block-5  p { color: #5a5a5a; font-size:.85em;}
 div#block-block-5  p a {padding:0px 0px 0px 12px;}
 
 div#block-views-landlord-newsletters-block-1 {
-	width:25%;
+	width:22%;
 	float:right;
 	text-align:center;
 	margin-top:40px;
@@ -364,6 +369,11 @@ div#block-views-landlord-newsletters-block-1 p.field-content.home-block {
 
 div#block-views-landlord-newsletters-block-1 p.field-content.home-block a {
 	color:#121212;
+
+}
+
+div#block-views-landlord-newsletters-block-1 p.field-content.home-block a:hover {
+	color:#1A5824;
 
 }
 
