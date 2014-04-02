@@ -53,13 +53,422 @@ width:100%;
 
 }
 
-div#navigation 
+/* Mobile/Browser */
+@media only screen and (max-width: 480px) {
+select.mnav { width:100%; padding:5px;}
+}
+
+/* Mobile/Browser */
+@media only screen and (max-width: 768px) {
+select.mnav { width:100%; padding:5px;}
+}
+
+/* iPad Portrait/Browser */
+@media only screen and (max-width: 991px) {
+	
+	div#navigation 
 { width: 100%;
  max-width: 1350px;
  margin:0px auto;
 
 border-style: solid; border-width: 0px;
 background:#1b6992; }
+	
+	div#block-block-1 p {
+	margin-bottom:24px;
+	}
+	
+	div#block-block-2 {
+		float:right;
+	}
+		div#block-block-2 div#phone-number h2 {
+	color: #1B6992;
+    font-family: Bitter;
+    font-size: 1.25em;
+    letter-spacing: 0.5px;
+	margin-bottom:6px;
+	text-align: right;
+		}
+		
+			body.not-logged-in div#block-block-2 div#member-login p {
+	margin:0px;
+	padding:0px;
+	font-size:1.1em;
+		}
+	
+	body.not-logged-in div#block-block-2 div#member-login {
+float:right;
+  border-radius: 6px;
+   
+    font-family: 'MPMediumRoman';
+    font-size: 0.8em;
+    text-align: center;
+    text-transform: uppercase;
+    width: 90%;
+	padding:0px 0px 3px;
+    background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: -moz-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: -o-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+	letter-spacing:.5px;
+	box-shadow:1px 1px 1px #ddd;
+}
+
+body.not-logged-in div#block-block-2 div#member-login a {
+display:block;
+  color: #525252;
+  
+}
+
+body.not-logged-in div#block-block-2 div#member-login a:hover {
+display:block;
+color:white;
+}
+
+
+	body.not-logged-in  div#block-block-2 div#member-login:hover {
+background:#1b6992;
+color:white;
+}
+
+body.logged-in div#block-block-2 div#member-login {
+	display:none;
+}
+
+body.logged-in div#welcome-back {
+	display:block;
+}
+
+body.logged-in div#welcome-back p {
+	  font-family: 'MPMediumRoman';
+	  font-size:.8em;
+	  text-align:right;
+	  padding:2% 4%;
+	  border-radius:3px;
+	   background-image: rgba(235,235,235,1);
+    background-image: -webkit-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: -moz-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: -o-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+    background-image: linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
+	letter-spacing:.5px;
+	    color:#1b6992;
+	  box-shadow:1px 1px 1px #ddd;
+}
+
+body.not-logged-in div#welcome-back {
+	display:none;
+}
+
+
+.front div#marquee {
+	width:100%;
+	height:337px;
+	background:url(../../../../default/files/marquee_tablet.jpg) center top no-repeat;
+	display:block;
+}
+
+p.home-intro  {
+	width:75%;
+	margin:0px 0 16px;
+	font-size:.9em;
+}
+
+.front div#main {
+	margin-top:-32px;
+}
+
+ div#marquee {
+	 display:none;
+ }
+ 
+  div#marquee div#block-block-3 {
+	  text-align:center;
+	  width:800px;
+	  margin:0px auto;
+	  
+	letter-spacing:1px;
+  }
+  
+    div#marquee div#block-block-3 h1 {
+	color:white;
+	  font-family: 'MPBoldRoman';
+	  letter-spacing:2px;
+	  text-transform:uppercase;
+	  padding-top:18px;
+	  line-height: 100%;
+	 margin-bottom:8px;
+	   font-weight:normal;
+	   font-size:2.15em;
+  }
+  
+   div#marquee div#block-block-3 h2 {
+	color:white;
+	  text-transform:uppercase;
+	   font-family: 'MPMediumRoman';
+	   font-weight:normal;
+	   letter-spacing:1.15px;
+	   font-size:1em;
+	    font-weight:normal;
+  }
+
+div.field.field-name-field-keywords div.field-items div.field-item  {
+	
+}
+
+div.field.field-name-field-newsletter-image  {
+
+float:right;
+
+}
+
+div.field.field-name-field-newsletter-image div.field-item  {
+	
+}
+
+div.field.field-name-field-newsletter-image div.field-items div.field-item img  {
+max-width:250px;
+min-width:150px;
+height:auto;
+float:right;
+margin:0px 0px 15px 18px;
+}
+
+div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image {
+	float:right;
+	margin:0px 0px 18px 18px;
+	border:1px solid #1B6992;
+	box-shadow:1px 1px 1px #DDDDDD;
+}
+
+div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image a img {
+	float:right;
+}
+
+div.view.view-landlord-newsletters div.views-field.views-field-title {
+	 font-family: 'MPMediumRoman';
+    font-size: 1.25em;
+    line-height: 125%;
+    margin-bottom: 2px;
+}
+
+div.view.view-landlord-newsletters div.views-field.views-field-field-publication-date,
+body.page-taxonomy div.field.field-name-field-publication-date {
+	  font-family: 'Bitter-Italic';
+	  font-size:.8em;
+	  margin-bottom:10px;
+	  color:#666;
+}
+
+div.view.view-landlord-newsletters div.views-field.views-field-body,
+body.page-taxonomy div.field.field-name-body  {
+	  font-size:.85em;
+}
+
+div.view.view-landlord-newsletters div.views-row {
+	min-height:125px;
+	padding:15px 0px;
+	border-bottom:1px solid #ccc;
+}
+
+div.view.view-landlord-newsletters div.views-row-last {
+	border-bottom:0px;
+}
+
+div#sidebar-second {
+	border:1px solid #888;
+	border-top:1px solid #aaa;
+	border-left:1px solid #aaa;
+	border-bottom:4px double #0e2b13 ;
+	background:#f1f6f3 url(../../../../default/files/curve_gradient.png) center top no-repeat;
+	font-family: 'MPMediumRoman';	width:22%;
+	font-size:.9em;
+	
+}
+
+body.one-sidebar.sidebar-second div#main {
+	width:100%;
+}
+
+
+div.region.region-sidebar-second {
+	padding:6px 15px 15px;
+
+}
+
+div#block-views-newsletter-topics-block {
+	font-weight:100;
+}
+
+div#block-views-newsletter-topics-block h2 {
+	 color: #666666;
+    font-size: 0.9em;
+    font-weight: 100;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+div#block-views-newsletter-topics-block a {
+	font-size:.95em;
+	font-weight:100;
+	color:#3f5b43;display:block;
+	
+}
+
+div#block-views-newsletter-topics-block a:hover {
+	
+	color:white;
+}
+
+
+div#block-views-newsletter-topics-block div.views-row {
+	padding:2px 2px 2px 10px;
+	line-height:140%;
+}
+
+div#block-views-newsletter-topics-block div.views-row:hover {
+	background:#1a5824;
+}
+
+div#block-views-newsletter-topics-block div.views-row-even {
+	background:url(../../../../default/files/5pct_black.png);
+}
+
+body.page-taxonomy h2  {	
+	margin-bottom:0px;
+	line-height: 120%;
+}
+body.page-taxonomy h2 a {
+	font-family: 'MPMediumRoman';	
+	font-weight:normal;
+
+}
+
+body.page-taxonomy li.node-readmore {
+	display:none;
+}
+
+div#footer div.container {
+	margin-top:0px;
+}
+
+
+div#footer div.container div.one_third.last   {
+	float:right;
+	text-align:right;
+}
+
+div#block-block-4 p,div#block-block-5  p { color: #5a5a5a; font-size:.85em;}
+div#block-block-5  p a {padding:0px 0px 0px 12px;}
+
+div#block-views-landlord-newsletters-block-1 {
+	width:20%;
+	float:right;
+	text-align:center;
+	margin-top:40px;
+}
+
+div#block-views-landlord-newsletters-block-1 h2 {
+	color: #1A5824;
+    font-family: 'MPMediumRoman';
+    font-size: 1em;
+    font-weight: normal;
+    letter-spacing: 0.25px;
+    text-transform: uppercase;
+}
+
+div#block-views-landlord-newsletters-block-1 p.field-content.home-block {
+    font-family: "Bitter";
+    font-size: 0.7em;
+    font-weight: normal;
+    line-height: 130%;
+	margin-bottom:6px;
+}
+
+div#block-views-landlord-newsletters-block-1 p.field-content.home-block a {
+	color:#121212;
+
+}
+
+div#block-views-landlord-newsletters-block-1 p.field-content.home-block a:hover {
+	color:#1A5824;
+
+}
+
+div#block-views-landlord-newsletters-block-1 div.views-row {
+	padding:0;
+	min-height:0;
+}
+/* NAV */
+
+#navigation ul, #navigation ul.sf-menu li a { border-radius:0px; }
+
+#navigation ul li a, #navigation ul.sf-menu li a { 
+font-size: 0.8em;
+    padding: 3px 10px; }
+	
+	#main { margin-bottom: 0px; }
+	
+		/* Header */
+#header-top {  margin: 0 auto;
+    padding: 24px 2% 4px;
+    width: 92%;}
+	
+	#header-top div.one_half {
+		padding:0px;
+	}
+	
+	#navigation ul, #navigation ul.sf-menu {     margin: 0 auto;
+    width: 100%;
+}
+	 .container                                  { position: relative; width: 92%; margin: 25px auto 10px auto; padding: 0; } 
+	
+	
+}
+
+/* Full Browser */
+@media only screen and (min-width: 992px) {
+	
+	#main { margin-bottom: 20px; }
+	#wrap #content {  }
+	
+	 .container                                  { position: relative; width: 960px; margin: 25px auto 10px auto; padding: 0; } 
+	
+	/* Header */
+#header-top { margin: 0 auto;
+    padding: 24px 0 4px;
+    width: 960px;}
+	
+	#header-top div.one_half {
+		padding:0px;
+	}
+	
+	div#navigation 
+{ width: 100%;
+ max-width: 1350px;
+ margin:0px auto;
+
+border-style: solid; border-width: 0px;
+background:#1b6992; }
+
+/* NAV */
+
+#navigation ul, #navigation ul.sf-menu li a { border-radius:0px; }
+
+#navigation ul li a, #navigation ul.sf-menu li a { font-size: .9em;padding: 4px 15px; }
+
+#header #site-slogan { font-size: 1.25em; }
+
+#navigation ul.sf-menu li:hover ul,
+#navigation ul.sf-menu li.sfHover ul,
+#navigation ul li:hover ul { top: 35px; }
+
+#navigation ul, #navigation ul.sf-menu {     margin: 0 auto;
+    width: 960px;
+}
+	
 	
 	div#block-block-1 p {
 	margin-bottom:24px;
@@ -261,8 +670,8 @@ div.view.view-landlord-newsletters div.views-row {
 div.view.view-landlord-newsletters div.views-row-last {
 	border-bottom:0px;
 }
-
-div#sidebar-first {
+/*
+div#sidebar-second {
 	border:1px solid #888;
 	border-top:1px solid #aaa;
 	border-left:1px solid #aaa;
@@ -271,11 +680,11 @@ div#sidebar-first {
 	font-family: 'MPMediumRoman';	width:248px;
 	
 }
-div.region.region-sidebar-first {
+div.region.region-sidebar-second {
 	padding:6px 15px 15px;
 
 }
-
+*/
 div#block-views-newsletter-topics-block {
 	font-weight:100;
 }
@@ -381,3 +790,6 @@ div#block-views-landlord-newsletters-block-1 div.views-row {
 	padding:0;
 	min-height:0;
 }
+	
+}
+

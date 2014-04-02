@@ -65,14 +65,7 @@ box-shadow: 1px 1px 0 #fff inset, -1px -1px 0 #fff inset; -moz-box-shadow: 1px 1
 
 .aligncenter { display:block; margin:0 auto; }
 
-/* Header */
-#header-top { margin: 0 auto;
-    padding: 24px 0 4px;
-    width: 960px;}
-	
-	#header-top div.one_half {
-		padding:0px;
-	}
+
 
 #header, #header-right { display:none; }
 
@@ -110,9 +103,9 @@ text-shadow: 1px 1px 0px #fff;*/ }
 
 #wrap { }
 
-#wrap #content { float:left; }
 
-#main { margin-bottom: 20px; }
+
+
 
 .node.node-teaser { margin-bottom: 20px; padding-bottom: 10px; border-bottom: 1px solid #d6d6d6; }
 
@@ -445,10 +438,7 @@ div#navigation div.menu-header div.content{
 #navigation ul.menu { padding:0px;text-align:center;}
 #navigation ul.menu li:hover {  }
 
-#navigation ul, #navigation ul.sf-menu {     margin: 0 auto;
-    width: 960px;
-}
-	
+
 #navigation ul li, #navigation ul.sf-menu li { position: relative; list-style:none; ; background:none; }
 
 #navigation ul li a, #navigation ul.sf-menu li a { padding: 3px 14px;text-decoration: none; letter-spacing:1px; font-size:.9em;
@@ -530,15 +520,7 @@ background: #f0f0f0 url('../images/dark/arrow_bullet.png') no-repeat 90% 50%; }
 /* iPad Portrait/Browser */
 @media only screen and (max-width: 991px) {
 
-#navigation ul, #navigation ul.sf-menu li a { border-radius:0px; }
 
-#navigation ul li a, #navigation ul.sf-menu li a { font-size: .9em;padding: 10px 15px; }
-
-#header #site-slogan { font-size: 1.25em; }
-
-#navigation ul.sf-menu li:hover ul,
-#navigation ul.sf-menu li.sfHover ul,
-#navigation ul li:hover ul { top: 35px; }
 
 }
 
