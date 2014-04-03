@@ -271,30 +271,29 @@ div.view.view-landlord-newsletters div.views-row {
 	border-bottom:1px solid #ccc;
 }
 
+div.view.view-landlord-newsletters div.views-row-first {
+	padding-top:0px;
+}
+
 div.view.view-landlord-newsletters div.views-row-last {
 	border-bottom:0px;
 }
 
-div#sidebar-second {
+div#block-views-newsletter-topics-block {
 	border:1px solid #888;
 	border-top:1px solid #aaa;
 	border-left:1px solid #aaa;
 	border-bottom:4px double #0e2b13 ;
 	background:#f1f6f3 url(../../../../default/files/curve_gradient.png) center top no-repeat;
-	font-family: 'MPMediumRoman';	width:22%;
-	font-size:.9em;
-	
+	font-family: 'MPMediumRoman';	width:20%;
+	font-size:.8em;
+	float:right;
+	margin: 0 0 2% 2%;
+	 padding-bottom: 1%;
 }
 
-body.one-sidebar.sidebar-second div#main {
-	width:100%;
-}
 
 
-div.region.region-sidebar-second {
-	padding:6px 15px 15px;
-
-}
 
 div#block-views-newsletter-topics-block {
 	font-weight:100;
@@ -304,8 +303,8 @@ div#block-views-newsletter-topics-block h2 {
 	 color: #666666;
     font-size: 0.9em;
     font-weight: 100;
-    letter-spacing: 1px;
-    margin-bottom: 15px;
+    letter-spacing: .5px;
+margin: 9px 0 12px;
     text-align: center;
     text-transform: uppercase;
 }
@@ -414,7 +413,7 @@ font-size: 0.8em;
 		/* Header */
 #header-top {  margin: 0 auto;
     padding: 24px 2% 4px;
-    width: 92%;}
+    width: 94%;}
 	
 	#header-top div.one_half {
 		padding:0px;
@@ -423,7 +422,7 @@ font-size: 0.8em;
 	#navigation ul, #navigation ul.sf-menu {     margin: 0 auto;
     width: 100%;
 }
-	 .container                                  { position: relative; width: 92%; margin: 25px auto 10px auto; padding: 0; } 
+	 .container                                  { position: relative; width: 94%; margin: 25px auto 10px auto; padding: 0; } 
 	
 	
 }
@@ -433,6 +432,13 @@ font-size: 0.8em;
 	
 	#main { margin-bottom: 20px; }
 	#wrap #content {  }
+	
+	
+body.one-sidebar.sidebar-second div#main {
+	width:105%;
+	float:left;
+}
+
 	
 	 .container                                  { position: relative; width: 960px; margin: 25px auto 10px auto; padding: 0; } 
 	
@@ -667,24 +673,27 @@ div.view.view-landlord-newsletters div.views-row {
 	border-bottom:1px solid #ccc;
 }
 
+div.view.view-landlord-newsletters div.views-row-first {
+	padding-top:0px;
+}
+
 div.view.view-landlord-newsletters div.views-row-last {
 	border-bottom:0px;
 }
-/*
-div#sidebar-second {
+
+div#block-views-newsletter-topics-block {
 	border:1px solid #888;
 	border-top:1px solid #aaa;
 	border-left:1px solid #aaa;
 	border-bottom:4px double #0e2b13 ;
 	background:#f1f6f3 url(../../../../default/files/curve_gradient.png) center top no-repeat;
-	font-family: 'MPMediumRoman';	width:248px;
+	font-family: 'MPMediumRoman';	width:20%;
+	font-size:.9em;
+	float:right;
+	margin: 0 0 2% 2%;
+	 padding-bottom: 1%;
 	
 }
-div.region.region-sidebar-second {
-	padding:6px 15px 15px;
-
-}
-*/
 div#block-views-newsletter-topics-block {
 	font-weight:100;
 }
@@ -694,7 +703,7 @@ div#block-views-newsletter-topics-block h2 {
     font-size: 0.9em;
     font-weight: 100;
     letter-spacing: 1px;
-    margin-bottom: 15px;
+  margin: 9px 0 12px;
     text-align: center;
     text-transform: uppercase;
 }

@@ -230,7 +230,7 @@ border-left: 1px solid; border-right: 1px solid; height: 40px; margin-left: -36p
 
 /* Sidebar */
 
-#wrap #sidebar-first, #wrap #sidebar-second { float:left; }
+#wrap #sidebar-first,  { float:left; } #wrap #sidebar-second {float:right;}
 
 #sidebar-first .block, #sidebar-second .block { padding: 0; }
 
