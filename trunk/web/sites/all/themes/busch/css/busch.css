@@ -687,6 +687,10 @@ div.view.view-landlord-newsletters div.views-row-first {
 	
 }
 
+.front div.view.view-landlord-newsletters div.views-row-odd {
+	background:#fff;
+}
+
 div.view.view-landlord-newsletters div.views-row-last {
 	border-bottom:0px;
 }
@@ -742,8 +746,8 @@ div#block-views-newsletter-topics-block div.views-row-even {
 }
 
 p.landlord-intro {
-	  font-family: 'Bitter-Italic';
-	  font-size:.85em;
+/*	  font-family: 'Bitter-Italic';
+	  font-size:.85em; */
 }
 
 body.page-taxonomy h2  {	
