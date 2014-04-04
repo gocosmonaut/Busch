@@ -32,11 +32,17 @@ body {
 
 }
 h1#page-title {
-	 color: #777777;
+	 color: #666;
     font-family: 'MPMediumRoman';
     font-size: 2em;
     margin:  0px 0px 16px 0px;
 	line-height:110%;
+}
+
+div.node h2 {
+	 color: #888;
+	    font-family: 'MPMediumRoman';
+		font-weight:100;
 }
 
 .front h1#page-title {
@@ -463,7 +469,7 @@ background:#1b6992; }
 
 #navigation ul, #navigation ul.sf-menu li a { border-radius:0px; }
 
-#navigation ul li a, #navigation ul.sf-menu li a { font-size: .9em;padding: 4px 15px; }
+#navigation ul li a, #navigation ul.sf-menu li a { font-size: .9em;padding: 4px 13px; }
 
 #header #site-slogan { font-size: 1.25em; }
 
@@ -638,7 +644,7 @@ margin:0px 0px 15px 18px;
 
 div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image {
 	float:right;
-	margin:0px 0px 18px 18px;
+	margin: 12px 12px 12px 18px;
 	border:1px solid #1B6992;
 	box-shadow:1px 1px 1px #DDDDDD;
 }
@@ -649,7 +655,7 @@ div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-
 
 div.view.view-landlord-newsletters div.views-field.views-field-title {
 	 font-family: 'MPMediumRoman';
-    font-size: 1.25em;
+    font-size: 1.35em;
     line-height: 125%;
     margin-bottom: 2px;
 }
@@ -664,17 +670,21 @@ body.page-taxonomy div.field.field-name-field-publication-date {
 
 div.view.view-landlord-newsletters div.views-field.views-field-body,
 body.page-taxonomy div.field.field-name-body  {
-	  font-size:.85em;
+	  font-size:1em;
 }
 
 div.view.view-landlord-newsletters div.views-row {
 	min-height:125px;
-	padding:15px 0px;
+	padding:1% 2% 2%;
 	border-bottom:1px solid #ccc;
 }
 
+div.view.view-landlord-newsletters div.views-row-odd {
+	background:#f0f0f0;
+}
+
 div.view.view-landlord-newsletters div.views-row-first {
-	padding-top:0px;
+	
 }
 
 div.view.view-landlord-newsletters div.views-row-last {
@@ -690,14 +700,11 @@ div#block-views-newsletter-topics-block {
 	font-family: 'MPMediumRoman';	width:20%;
 	font-size:.9em;
 	float:right;
-	margin: 0 0 2% 2%;
+	margin: 0 0 3% 3%;
 	 padding-bottom: 1%;
+	 box-shadow:0px 0px 2px #666;
 	
 }
-div#block-views-newsletter-topics-block {
-	font-weight:100;
-}
-
 div#block-views-newsletter-topics-block h2 {
 	 color: #666666;
     font-size: 0.9em;
@@ -732,6 +739,11 @@ div#block-views-newsletter-topics-block div.views-row:hover {
 
 div#block-views-newsletter-topics-block div.views-row-even {
 	background:url(../../../../default/files/5pct_black.png);
+}
+
+p.landlord-intro {
+	  font-family: 'Bitter-Italic';
+	  font-size:.85em;
 }
 
 body.page-taxonomy h2  {	
@@ -799,6 +811,19 @@ div#block-views-landlord-newsletters-block-1 div.views-row {
 	padding:0;
 	min-height:0;
 }
+
+div.node.node-landlord-newsletters span.date-display-single {
+  background: none repeat scroll 0 0 #8DD8FF;
+    border-radius: 4px;
+    color: #1B6992;
+    float: right;
+    font-size: 0.9em;
+    padding: 3px 6px;
 	
+}
+
+div.field.field-name-field-author p{
+	font-family:"Bitter-Bold";
+	font-size:1.1em;
 }
 
