@@ -167,12 +167,12 @@ div.container div#content {
 	background: none repeat scroll 0 0 white;
     border: 1px solid #3F5B43;
     box-shadow: 0 0 3px #555555;
-    float: right;min-width: 120px;
+  width:98%;
 
-    margin: 2% 0 2% 2%;
-   width: 35%;
+    margin: 10px auto;
+  
         height: auto;
-    padding: 3px;
+    padding: 2px;
     
 
 }
@@ -331,6 +331,10 @@ div.field.field-name-field-keywords div.field-items div.field-item  {
 	
 }
 
+div.field.field-name-field-image {
+text-align:center;
+}
+
 div.field.field-name-field-newsletter-image  {
 margin: 0 0 6% 6%;
 float:right;
@@ -353,7 +357,7 @@ margin:0px 0px 15px 18px;
 div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image {
 float: right;
     margin: 0 0 20px 20px;
-    width: 25%;
+
 }
 
 div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image a img {
@@ -546,13 +550,13 @@ div#block-block-7 {
 	display:none;
 }
 div.container  div#main div.content  img {
-	 background: none repeat scroll 0 0 white;
-  
+ background: none repeat scroll 0 0 white;
     box-shadow: 0 0 3px #555555;
+    float: right;
     height: auto;
-
+    margin: 0 0 3% 3%;
+    max-width: 280px;
     padding: 3px;
-	float:right;
 }
 div#block-block-6{
 	display:none;
@@ -928,8 +932,9 @@ font-size: 0.75em;
 	background: none repeat scroll 0 0 white;
     border: 1px solid #3F5B43;
     box-shadow: 0 0 3px #555555;
+    float: right;
     height: auto;
-    margin: 0 0 8% 8%;
+    margin: 0 0 4% 4%;
     max-width: 400px;
     padding: 6px;
 
@@ -1560,7 +1565,7 @@ body.page-taxonomy div.field.field-name-body  {
 
 div.view.view-landlord-newsletters div.views-row {
 	min-height:125px;
-	padding:1% 2% 2%;
+	padding:.5% 2% 2%;
 	border-bottom:1px solid #ccc;
 }
 
