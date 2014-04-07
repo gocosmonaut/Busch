@@ -106,20 +106,46 @@ div#block-block-7 {
 width:100%;
 }
 
+div#block-block-7 h2 {
+line-height:100%;
+margin:0px;
+}
+
+
+div#mobile-contact  {
+
+background:black;
+}
+
 div#mobile-contact div#phone-number {
 width:50%;
 float:left;
+background:gold;
 }
 
 div#mobile-contact div#phone-number h2 {
 text-align:center;
-font-size:1.2em;
+margin:0px;
+font-size:1.15em;
+}
+
+div#mobile-contact div#member-login h2 a {
+text-align:center;
+font-size:.7em;
+margin:0px;
 }
 
  div#mobile-contact div#member-login {
 width:50%;
 float:right;
-
+background:red;
+text-align:center;
+ }
+ 
+  div#mobile-contact div#member-login p {
+margin:0px;
+text-align:center;
+font-size:1.2em;
  }
 
 
@@ -129,7 +155,7 @@ div.container  div#main div.content  img {
     box-shadow: 0;
     height: auto;
     margin: 2% auto;
-   min-width:298px;
+  /* min-width:298px; */
 	width:100%;
     padding: 0px;
 }
@@ -167,7 +193,7 @@ div.container div#content {
 	background: none repeat scroll 0 0 white;
     border: 1px solid #3F5B43;
     box-shadow: 0 0 3px #555555;
-  width:98%;
+  width:96%;
 
     margin: 10px auto;
   
@@ -346,9 +372,9 @@ div.field.field-name-field-newsletter-image div.field-item  {
 	
 }
 
-div.field.field-name-field-newsletter-image div.field-items div.field-item img  {
+div.container div#main div.content div.field.field-name-field-newsletter-image div.field-items div.field-item img  {
 max-width:250px;
-min-width:150px;
+min-width:120px;
 height:auto;
 float:right;
 margin:0px 0px 15px 18px;
@@ -360,7 +386,7 @@ float: right;
 
 }
 
-div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image a img {
+div.container div#main div.content div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image a img {
 	float:right;
 }
 
@@ -680,7 +706,7 @@ p.home-intro  {
  
   div#marquee div#block-block-3 {
 	  text-align:center;
-	  width:800px;
+	width:96%;
 	  margin:0px auto;
 	  
 	letter-spacing:1px;
@@ -733,7 +759,7 @@ margin:0px 0px 15px 18px;
 div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image {
 	float:right;
 	margin:0px 0px 18px 18px;
-	border:1px solid #1B6992;
+	
 	box-shadow:1px 1px 1px #DDDDDD;
 }
 
