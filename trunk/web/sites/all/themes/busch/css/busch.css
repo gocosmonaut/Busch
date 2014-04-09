@@ -1159,6 +1159,7 @@ div.view.view-landlord-newsletters div.views-field.views-field-title {
     font-size: 1.25em;
     line-height: 125%;
     margin-bottom: 2px;
+	margin-top:260px;
 }
 
 div.view.view-landlord-newsletters div.views-field.views-field-field-publication-date,
@@ -1275,7 +1276,9 @@ div#block-views-landlord-newsletters-block-1 {
 	width:20%;
 	float:right;
 	text-align:center;
-	margin-top:40px;
+	margin-top:-255px;
+	background:url(../../../../default/files/busch_floating.png) center top no-repeat;
+	
 }
 
 div#block-views-landlord-newsletters-block-1 h2 {
@@ -1704,10 +1707,10 @@ div#block-views-landlord-newsletters-block-1 h2 {
 	 background: none repeat scroll 0 0 #1A5824;
     color: white;
     font-family: 'MPMediumRoman';
-    font-size: 0.9em;
+    font-size: 0.65em;
     font-weight: normal;
     letter-spacing: 0.25px;
-    padding: 2px 5px 4px;
+    padding: 2px 4px 4px;
     text-transform: uppercase;
 }
 
