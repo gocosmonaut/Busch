@@ -12,7 +12,7 @@
 		groupPageText: 'Main',			//optgroup's aren't selectable, make an option for it
 		nested: true,					//create optgroups by default
 		prependTo: 'body',				//insert at top of page by default
-		switchWidth: 768,				//width at which to switch to select, and back again
+		switchWidth: 480,				//width at which to switch to select, and back again
 		topOptionText: 'Select a page'	//default "unselected" state
 	},
 	

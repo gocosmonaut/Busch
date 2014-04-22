@@ -1387,7 +1387,7 @@ background:#1b6992; }
 
 #navigation ul, #navigation ul.sf-menu li a { border-radius:0px; }
 
-#navigation ul li a, #navigation ul.sf-menu li a { font-size: .9em;padding: 4px 13px; }
+#navigation ul li a, #navigation ul.sf-menu li a { font-size: .9em;padding: 4px 11px; }
 
 #header #site-slogan { font-size: 1.25em; }
 
@@ -1410,7 +1410,7 @@ background:#1b6992; }
 		div#block-block-2 div#phone-number h2 {
 	color: #1B6992;
     font-family: Bitter;
-    font-size: 1.25em;
+    font-size: 1.4em;
     letter-spacing: 0.5px;
 	margin-bottom:6px;
 	text-align: right;
@@ -1430,7 +1430,7 @@ float:right;
     font-size: 0.8em;
     text-align: center;
     text-transform: uppercase;
-    width: 90%;
+    width: 160px;
 	padding:0px 0px 3px;
     background-image: rgba(235,235,235,1);
     background-image: -webkit-linear-gradient(top, #fafafa 0%,#d1d1d1 100%);
@@ -1707,7 +1707,7 @@ div#block-views-landlord-newsletters-block-1 h2 {
 	 background: none repeat scroll 0 0 #1A5824;
     color: white;
     font-family: 'MPMediumRoman';
-    font-size: 0.65em;
+    font-size: 1em;
     font-weight: normal;
     letter-spacing: 0.25px;
     padding: 2px 4px 4px;
