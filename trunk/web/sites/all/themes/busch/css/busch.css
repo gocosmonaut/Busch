@@ -64,6 +64,10 @@ p.landlord-intro {
 	  font-size:.85em; 
 }
 
+a.feed-icon {
+	display:none;
+}
+
 
 	
 
@@ -420,6 +424,10 @@ div.view.view-landlord-newsletters div.views-row-odd {
 	background:#f0f0f0;
 }
 
+.front div.view.view-landlord-newsletters div.views-row-odd {
+	background:white;
+}
+
 div.view.view-landlord-newsletters div.views-row-first {
 	padding-top:0px;
 }
@@ -570,6 +578,11 @@ div#block-views-landlord-newsletters-block-1 div.views-row {
     width: 100%;
 }
 	 .container                                  { position: relative; width: 94%; margin: 12px auto 10px auto; padding: 0; } 
+	 
+	 div#node-6 iframe {
+	width:96%;
+	margin:1% 2%;
+}
 }
 
 /* Mobile/Browser */
@@ -754,7 +767,7 @@ div.field.field-name-field-newsletter-image div.field-item  {
 
 div.field.field-name-field-newsletter-image div.field-items div.field-item img  {
 max-width:250px;
-min-width:150px;
+min-width:120px;
 height:auto;
 float:right;
 margin:0px 0px 15px 18px;
@@ -762,7 +775,7 @@ margin:0px 0px 15px 18px;
 
 div.view.view-landlord-newsletters div.views-field.views-field-field-newsletter-image {
 	float:right;
-	margin:0px 0px 18px 18px;
+	margin:1% 0px 18px 18px;
 	
 	box-shadow:1px 1px 1px #DDDDDD;
 }
@@ -800,7 +813,11 @@ div.view.view-landlord-newsletters div.views-row-odd {
 	background:#f0f0f0;
 }
 div.view.view-landlord-newsletters div.views-row-first {
-	padding-top:0px;
+	
+}
+
+.front div.view.view-landlord-newsletters div.views-row-odd {
+	background:white;
 }
 
 div.view.view-landlord-newsletters div.views-row-last {
@@ -956,6 +973,16 @@ div#block-views-landlord-newsletters-block-1 div.views-row {
     width: 100%;
 }
 	 .container                                  { position: relative; width: 94%; margin: 25px auto 10px auto; padding: 0; } 
+body.page-taxonomy div.node.node-landlord-newsletters {
+width:75%;
+float:left;
+}
+div#node-6 iframe {
+	float:right;
+	width:300px;
+	height:200px;
+	margin:0% 0% 2% 2%;
+}
 
 }
 
@@ -968,7 +995,7 @@ div#block-views-landlord-newsletters-block-1 div.views-row {
     box-shadow: 0 0 3px #555555;
     float: right;
     height: auto;
-    margin: 0 0 4% 4%;
+    margin: 0 0 6% 6%;
     max-width: 400px;
     padding: 6px;
 
@@ -1146,7 +1173,7 @@ div.field.field-name-field-newsletter-image div.field-item  {
 
 div.field.field-name-field-newsletter-image div.field-items div.field-item img  {
 max-width:250px;
-min-width:150px;
+min-width:130px;
 height:auto;
 float:right;
 margin:0px 0px 15px 18px;
@@ -1192,6 +1219,10 @@ div.view.view-landlord-newsletters div.views-row {
 
 div.view.view-landlord-newsletters div.views-row-odd {
 	background:#f0f0f0;
+}
+
+.front div.view.view-landlord-newsletters div.views-row-odd {
+	background:white;
 }
 
 div.view.view-landlord-newsletters div.views-row-first {
@@ -1353,7 +1384,17 @@ font-size: 0.75em;
 }
 	 .container                                  { position: relative; width: 94%; margin: 25px auto 10px auto; padding: 0; } 
 	
-	
+	body.page-taxonomy div.node.node-landlord-newsletters {
+width:75%;
+float:left;
+}
+
+div#node-6 iframe {
+	float:right;
+	width:400px;
+	height:300px;
+	margin:0% 0% 2% 2%;
+}
 }
 
 /* Full Browser */
@@ -1751,6 +1792,21 @@ div#block-views-landlord-newsletters-block-1 div.views-row {
 	min-height:0;
 }
 
+body.page-taxonomy div.node.node-landlord-newsletters span.date-display-single {
+	background: none repeat scroll 0 0 #8DD8FF;
+    border-radius: 4px;
+    color: #1B6992;
+    float: left;
+    font-size: 1em;
+    margin: 1% 2% 2% 0;
+    padding: 3px 6px;
+}
+
+body.page-taxonomy div.node.node-landlord-newsletters {
+width:75%;
+float:left;
+}
+
 div.node.node-landlord-newsletters span.date-display-single {
   background: none repeat scroll 0 0 #8DD8FF;
     border-radius: 4px;
@@ -1781,5 +1837,12 @@ div.container  div#main div.content  img {
     margin:0 0 8% 8%;
   
     padding: 6px;
+}
+
+div#node-6 iframe {
+	float:right;
+	width:400px;
+	height:300px;
+	margin:0% 0% 2% 2%;
 }
 
