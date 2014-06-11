@@ -71,6 +71,73 @@ div.field.field-name-field-disclaimer {
 	font-size:.9em;
 	font-style:italic;
 	margin:0px 12px 12px 0px;
+	color:#999;
+}
+
+table#hereshow {
+	width:20%;
+	margin:0px auto;
+
+}
+
+table#hereshow tbody {
+	border:0px;
+	background:none;
+}
+
+table#hereshow tbody tr {
+	border:0px;
+	background:none;
+}
+
+table#hereshow td {
+	border:1px solid white;
+	background:url(../../../../default/files/heres-fill.png);
+	padding:0px;
+}
+
+
+table#hereshow td p {
+	margin:0px;
+	text-align:center;
+	
+}
+
+table#hereshow td p  a{
+	color:white;
+	display:block;
+	padding:4px;
+}
+
+div#e2ma_signup_form {
+	
+	  width:100% !important; 
+}
+
+div#e2ma_signup_form_container {
+	width:300px;
+}
+
+div#e2ma_signup_form div.e2ma_signup_form_label, div#e2ma_signup_message{
+	font-size:1em !important;
+	  font-family: 'Bitter' !important;
+	  margin-bottom:12px;
+}
+
+div.e2ma_signup_form_row {
+	border:0px !important;
+}
+
+div.e2ma_signup_form_required_footnote {
+	border:none !important;
+	text-align:right !important;
+}
+
+
+table#hereshow td p  a:hover{
+	background:#1B6992;
+	color:white;
+	display:block;
 }
 
 a.feed-icon {
@@ -359,7 +426,7 @@ input, textarea {  font-size: 0.929em; }
 
 textarea { line-height: 1.5; }
 
-textarea.form-textarea, select.form-select { padding: 4px; }
+textarea.form-textarea, select.form-select { padding: 4px;  font-size:1em;}
 
 input.form-text, textarea.form-textarea, select.form-select { border: 1px solid #ccc; }
 
@@ -596,9 +663,24 @@ background-color: #1B6992; border:none; padding: 3px 0px; }
 #navigation .sf-menu li li { border:none; } 
 
 /* iPad Portrait/Browser */
-@media only screen and (max-width: 991px) {
+@media only screen and (min-width: 991px) {
 
+#navigation ul li, #navigation ul.sf-menu li { position: relative; list-style:none; ; background:none; }
 
+#navigation ul li a, #navigation ul.sf-menu li a { padding: 3px 14px;text-decoration: none; letter-spacing:1px; font-size:.9em;
+display: block;  outline:none; color:#fff; text-transform:uppercase; font-family: 'Bitter'; }
+
+#navigation ul li.expanded a, #navigation ul.sf-menu li.menuparent a { /* padding-right: 35px; */ }
+
+#navigation ul li a:hover, #navigation ul.sf-menu li a:hover {  color: #8DD8FF; }
+
+#navigation ul li:hover li a, #navigation ul.sf-menu li li a { color: white; font-weight: normal; }
+
+#navigation ul li a.active, #navigation ul.sf-menu li a.active { color: #1B6992; background-color: #8dd8ff;  }
+
+#navigation ul ul { position: absolute; top: -999em; width: 230px; }
+#navigation ul ul { filter:none; border:none; box-shadow: none;
+-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; margin-top:-5px !important; }
 
 }
 
@@ -624,6 +706,21 @@ select.mnav { width:100%; padding:5px;}
 #header-right ul.menu li.last, #header-top ul.menu li.last { border-right:none; padding-right:0; margin:0; }
 
 #header-right ul.menu ul.menu, #header-top ul.menu ul.menu  { display:none; }
+
+#navigation ul ul { filter:none; border:none; box-shadow: none;
+-moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0; margin-top:-20px; }
+
+#navigation ul ul li {border-top:1px solid white; }
+
+#navigation ul ul li a {color:white; }
+
+#navigation ul ul li a, #navigation ul ul li a.active,
+#navigation ul.sf-menu ul li a, #navigation ul.sf-menu ul li a.active {
+background-color: #1B6992; border:none; padding: 3px 0px; }
+ 
+#navigation ul ul li a:hover,
+#navigation ul.sf-menu ul li a:hover,
+#navigation ul.sf-menu ul li.sfHover > a { background-color:#8DD8FF;  color:white; }
 
 /* Mobile/Browser */
 @media only screen and (max-width: 767px) {
